@@ -12,7 +12,7 @@
       <h1>The Story of the Chinese Farmer</h1>
 
       <!--11 may 2016, Alexandre Gorius-->
-      <img
+      <img id="imgfloat"
         alt="11 may 2016, Alexandre Gorius"
         title="11 may 2016, Alexandre Gorius"
         src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg"
@@ -28,49 +28,49 @@
 
       <h2>The story</h2>
       <blockquote>
-        <p>
+        <p id="firstp">
           Once upon a time there was a Chinese farmer whose horse ran away. That
           evening, all of his neighbors came around to commiserate.
         </p>
         <p>They said,</p>
-        <q
+        <q class="villagers"
           >We are so sorry to hear your horse has run away. This is most
           unfortunate.</q
         >
         <p>The farmer said,</p>
-        <q><em>Maybe.</em></q>
+        <q class="farmer"><em>Maybe.</em></q>
         <p>
           The next day the horse came back bringing seven wild horses with it,
           and in the evening everybody came back and said,
         </p>
-        <q
+        <q class="villagers"
           >Oh, isn't that lucky. What a great turn of events. You now have eight
           horses!</q
         >
         <p>The farmer again said,</p>
-        <q><em>Maybe.</em></q>
+        <q class="farmer"><em>Maybe.</em></q>
 
         <p>
           The following day his son tried to break one of the horses, and while
           riding it, he was thrown and broke his leg. The neighbors then said,
         </p>
-        <q>Oh dear, that's too bad,</q>
+        <q class="villagers">Oh dear, that's too <p class="bad">bad</p>,</q>
         <p>and the farmer responded,</p>
-        <q><em>Maybe.</em></q>
+        <q class="farmer"><em>Maybe.</em></q>
         <p>
           The next day the conscription officers came around to conscript people
           into the army, and they rejected his son because he had a broken leg.
           Again all the neighbors came around and said,
         </p>
-        <q>Isn't that great!</q>
+        <q class="villagers">Isn't that great!</q>
         <p>Again, he said,</p>
-        <q><em>Maybe.</em></q>
+        <q class="farmer"><em>Maybe.</em></q>
         <p>
           whole process of nature is an integrated process of immense
           complexity, and it's really impossible to tell whether anything that
-          happens in it is good or bad — because you never know what will be the
+          happens in it is <p class="good">good</p> or <p class="bad">bad</p> — because you never know what will be the
           consequence of the misfortune; or, you never know what will be the
-          consequences of good fortune.
+          consequences of <p class="good">good</p> fortune.
         </p>
 
         <a
@@ -83,25 +83,25 @@
 
       <!--Here is this dialog in the form of a table-->
       <table title="Table representing the farmer's philosophy.">
-        <tr>
+        <tr class="white">
           <th>Event</th>
           <th>
-            <p class="Good">Good</p>
+            <p class="good">Good</p>
             <p>or</p>
-            <p class="Bad">Bad?</p>
+            <p class="bad">Bad?</p>
           </th>
-        </tr>
+        </tr><tr class="grey">
         <td>Lose a horse</td>
-        <td><em>Maybe</em></td>
-        <tr>
-          <td>Win more horses</td>
-          <td><em>Maybe</em></td>
+        <td ><em>Maybe</em></td>
+        <tr class="white">
+          <td >Win more horses</td>
+          <td ><em>Maybe</em></td>
         </tr>
-        <tr>
-          <td>Son injury</td>
-          <td><em>Maybe</em></td>
+        <tr class="grey">
+          <td >Son injury</td>
+          <td ><em>Maybe</em></td>
         </tr>
-        <tr>
+        <tr class="white">
           <td>Avoir war</td>
           <td><em>Maybe</em></td>
         </tr>
@@ -109,10 +109,39 @@
       <!--Table representing the farmer's philosophy.-->
       <h2>Conclusion</h2>
       <p>
-        Good and Bad are just one perspective. Bananas are good for monkeys, but
-        monkeys are not good for bananas. Let's not make a big deal out of it...
+        <p class="good">Good</p> and <p class="bad">Bad</p> are just one perspective. Bananas are <p class="good">good</p> for monkeys, but
+        monkeys are not <p class="good">good</p> for bananas. Let's not make a big deal out of it...
       </p>
     </article>
+    <h2>Instruction</h2>
+    <p>Joue avec les propriétés <code>position</code>, <code>top</code> et <code>left</code> de cette image et de son container.</p>
+    <div class="img-wrapper"><img id="imgwrapper" src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&quality=85&auto=format&fit=max&s=a52bbe202f57ac0f5ff7f47166906403" alt="" ></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ita, quae mutat, ea corrumpit, quae sequitur sunt tota Democriti, atomi, inane, imagines, quae eidola nominant, quorum incursione non solum videamus, sed etiam cogitemus; Hoc uno captus Erillus scientiam summum bonum esse defendit nec rem ullam aliam per se expetendam. Nec tamen ullo modo summum pecudis bonum et hominis idem mihi videri potest. Quae enim dici Latine posse non arbitrabar, ea dicta sunt a te verbis aptis nec minus plane quam dicuntur a Graecis. Duo Reges: constructio interrete. Quid igitur dubitamus in tota eius natura quaerere quid sit effectum? A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed quamvis comis in amicis tuendis fuerit, tamen, si haec vera sunt-nihil enim affirmo-, non satis acutus fuit. </p>
+    
+    <p>Quod quidem iam fit etiam in Academia. Quid censes eos esse facturos, qui omnino virtutem a bonorum fine segregaverunt, Epicurum, Hieronymum, illos etiam, si qui Carneadeum finem tueri volunt? Cum enim superiores, e quibus planissime Polemo, secundum naturam vivere summum bonum esse dixissent, his verbis tria significari Stoici dicunt, unum eius modi, vivere adhibentem scientiam earum rerum, quae natura evenirent. Ego autem existimo, si honestum esse aliquid ostendero, quod sit ipsum vi sua propter seque expetendum, iacere vestra omnia. </p>
+    
+    <p>Ita, quod certissimum est, pro vera certaque iustitia simulationem nobis iustitiae traditis praecipitisque quodam modo ut nostram stabilem conscientiam contemnamus, aliorum errantem opinionem aucupemur. Immo sit sane nihil melius, inquam-nondum enim id quaero-, num propterea idem voluptas est, quod, ut ita dicam, indolentia? Bonum appello quicquid secundurn naturam est, quod contra malum, nec ego solus, sed tu etiam, Chrysippe, in foro, domi; Atque omnia quidem scire, cuiuscumque modi sint, cupere curiosorum, duci vero maiorum rerum contemplatione ad cupiditatem scientiae summorum virorum est putandum. Ita fit, ut duo genera propter se expetendorum reperiantur, unum, quod est in iis, in quibus completar illud extremum, quae sunt aut animi aut corporis; </p>
+    
+    <p>Non elogia monimentorum id significant, velut hoc ad portam: Hunc unum plurimae consentiunt gentes populi primarium fuisse virum. Nam si dicent ab illis has res esse tractatas, ne ipsos quidem Graecos est cur tam multos legant, quam legendi sunt. Et hanc quidem primam exigam a te operam, ut audias me quae a te dicta sunt refellentem. Modo enim fuit Carneadis, quem videre videor-est, enim nota imago -, a sedeque ipsa tanta ingenii, magnitudine orbata desiderari illam vocem puto. Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, quam illius testamento cavere ut ageretur. Quis enim potest istis, quae te, ut ais, delectant, brevibus et acutis auditis de sententia decedere? Quoniamque non dubium est quin in iis, quae media dicimus, sit aliud sumendum, aliud reiciendum, quicquid ita fit aut dicitur, omne officio continetur. Quae possunt eadem contra Carneadeum illud summum bonum dici, quod is non tam, ut probaret, protulit, quam ut Stoicis, quibuscum bellum gerebat, opponeret. Itaque sensibus rationem adiunxit et ratione effecta sensus non reliquit. Habent enim et bene longam et satis litigiosam disputationem. Quaeque sunt vetera praecepta sapientium, qui iubent tempori parere et sequi deum et se noscere et nihil nimis, haec sine physicis quam vim habeant-et habent maximamvidere nemo potest. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Nulla profecto est, quin suam vim retineat a primo ad extremum. Quod autem magnum dolorem brevem, longinquum levem esse dicitis, id non intellego quale sit. Hanc initio institutionem confusam habet et incertam, ut tantum modo se tueatur, qualecumque sit, sed nec quid sit nec quid possit nec quid ipsius natura sit intellegit. </p>
+    
+    <p>Sed ille, ut dixi, vitiose. Omne enim animal, simul et ortum est, se ipsum et omnes partes suas diligit duasque, quae maximae sunt, in primis amplectitur, animum et corpus, deinde utriusque partes. Obsecro, inquit, Torquate, haec dicit Epicurus? Primum non saepe, deinde quae est ista relaxatio, cum et praeteriti doloris memoria recens est et futuri atque inpendentis torquet timor? Hanc in motu voluptatem -sic enim has suaves et quasi dulces voluptates appellat-interdum ita extenuat, ut M. Quod enim vituperabile est per se ipsum, id eo ipso vitium nominatum puto, vel etiam a vitio dictum vituperari. Eam tum adesse, cum dolor omnis absit; Primum enim, si vera sunt ea, quorum recordatione te gaudere dicis, hoc est, si vera sunt tua scripta et inventa, gaudere non potes. Utrum igitur tibi non placet, inquit, virtutisne tantam esse vim, ut ad beate vivendum se ipsa contenta sit? Nobis enim ista quaesita, a nobis descripta, notata, praecepta sunt, omniumque rerum publicarum reetionis genera, status, mutationes, leges etiam et instituta ac mores civitatum perscripsimus. Quid tibi, Torquate, quid huic Triario litterae, quid historiae cognitioque rerum, quid poetarum evolutio, quid tanta tot versuum memoria voluptatis affert? Cupit enim dícere nihil posse ad beatam vitam deesse sapienti. Rem unam praeclarissimam omnium maximeque laudandam, penitus viderent, quonam gaudio complerentur, cum tantopere eius adumbrata opinione laetentur? Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Est enim tanti philosophi tamque nobilis audacter sua decreta defendere. Sed si duo honesta proposita sint, alterum cum valitudine, alterum cum morbo, non esse dubium, ad utrum eorum natura nos ipsa deductura sit. </p>
+    
+    <h2>Instruction</h2>
+<p>Fais en sorte que la notification ci-dessous reste en permanence  visible en haut à droite du viewport.</p>
+<aside class="notification">
+  <p>Vous avez un nouveau message!</p>
+</aside>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ita, quae mutat, ea corrumpit, quae sequitur sunt tota Democriti, atomi, inane, imagines, quae eidola nominant, quorum incursione non solum videamus, sed etiam cogitemus; Hoc uno captus Erillus scientiam summum bonum esse defendit nec rem ullam aliam per se expetendam. Nec tamen ullo modo summum pecudis bonum et hominis idem mihi videri potest. Quae enim dici Latine posse non arbitrabar, ea dicta sunt a te verbis aptis nec minus plane quam dicuntur a Graecis. Duo Reges: constructio interrete. Quid igitur dubitamus in tota eius natura quaerere quid sit effectum? A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. Sed quamvis comis in amicis tuendis fuerit, tamen, si haec vera sunt-nihil enim affirmo-, non satis acutus fuit. </p>
+
+<p>Quod quidem iam fit etiam in Academia. Quid censes eos esse facturos, qui omnino virtutem a bonorum fine segregaverunt, Epicurum, Hieronymum, illos etiam, si qui Carneadeum finem tueri volunt? Cum enim superiores, e quibus planissime Polemo, secundum naturam vivere summum bonum esse dixissent, his verbis tria significari Stoici dicunt, unum eius modi, vivere adhibentem scientiam earum rerum, quae natura evenirent. Ego autem existimo, si honestum esse aliquid ostendero, quod sit ipsum vi sua propter seque expetendum, iacere vestra omnia. </p>
+
+<p>Ita, quod certissimum est, pro vera certaque iustitia simulationem nobis iustitiae traditis praecipitisque quodam modo ut nostram stabilem conscientiam contemnamus, aliorum errantem opinionem aucupemur. Immo sit sane nihil melius, inquam-nondum enim id quaero-, num propterea idem voluptas est, quod, ut ita dicam, indolentia? Bonum appello quicquid secundurn naturam est, quod contra malum, nec ego solus, sed tu etiam, Chrysippe, in foro, domi; Atque omnia quidem scire, cuiuscumque modi sint, cupere curiosorum, duci vero maiorum rerum contemplatione ad cupiditatem scientiae summorum virorum est putandum. Ita fit, ut duo genera propter se expetendorum reperiantur, unum, quod est in iis, in quibus completar illud extremum, quae sunt aut animi aut corporis; </p>
+
+<p>Non elogia monimentorum id significant, velut hoc ad portam: Hunc unum plurimae consentiunt gentes populi primarium fuisse virum. Nam si dicent ab illis has res esse tractatas, ne ipsos quidem Graecos est cur tam multos legant, quam legendi sunt. Et hanc quidem primam exigam a te operam, ut audias me quae a te dicta sunt refellentem. Modo enim fuit Carneadis, quem videre videor-est, enim nota imago -, a sedeque ipsa tanta ingenii, magnitudine orbata desiderari illam vocem puto. Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, quam illius testamento cavere ut ageretur. Quis enim potest istis, quae te, ut ais, delectant, brevibus et acutis auditis de sententia decedere? Quoniamque non dubium est quin in iis, quae media dicimus, sit aliud sumendum, aliud reiciendum, quicquid ita fit aut dicitur, omne officio continetur. Quae possunt eadem contra Carneadeum illud summum bonum dici, quod is non tam, ut probaret, protulit, quam ut Stoicis, quibuscum bellum gerebat, opponeret. Itaque sensibus rationem adiunxit et ratione effecta sensus non reliquit. Habent enim et bene longam et satis litigiosam disputationem. Quaeque sunt vetera praecepta sapientium, qui iubent tempori parere et sequi deum et se noscere et nihil nimis, haec sine physicis quam vim habeant-et habent maximamvidere nemo potest. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Nulla profecto est, quin suam vim retineat a primo ad extremum. Quod autem magnum dolorem brevem, longinquum levem esse dicitis, id non intellego quale sit. Hanc initio institutionem confusam habet et incertam, ut tantum modo se tueatur, qualecumque sit, sed nec quid sit nec quid possit nec quid ipsius natura sit intellegit. </p>
+
+<p>Sed ille, ut dixi, vitiose. Omne enim animal, simul et ortum est, se ipsum et omnes partes suas diligit duasque, quae maximae sunt, in primis amplectitur, animum et corpus, deinde utriusque partes. Obsecro, inquit, Torquate, haec dicit Epicurus? Primum non saepe, deinde quae est ista relaxatio, cum et praeteriti doloris memoria recens est et futuri atque inpendentis torquet timor? Hanc in motu voluptatem -sic enim has suaves et quasi dulces voluptates appellat-interdum ita extenuat, ut M. Quod enim vituperabile est per se ipsum, id eo ipso vitium nominatum puto, vel etiam a vitio dictum vituperari. Eam tum adesse, cum dolor omnis absit; Primum enim, si vera sunt ea, quorum recordatione te gaudere dicis, hoc est, si vera sunt tua scripta et inventa, gaudere non potes. Utrum igitur tibi non placet, inquit, virtutisne tantam esse vim, ut ad beate vivendum se ipsa contenta sit? Nobis enim ista quaesita, a nobis descripta, notata, praecepta sunt, omniumque rerum publicarum reetionis genera, status, mutationes, leges etiam et instituta ac mores civitatum perscripsimus. Quid tibi, Torquate, quid huic Triario litterae, quid historiae cognitioque rerum, quid poetarum evolutio, quid tanta tot versuum memoria voluptatis affert? Cupit enim dícere nihil posse ad beatam vitam deesse sapienti. Rem unam praeclarissimam omnium maximeque laudandam, penitus viderent, quonam gaudio complerentur, cum tantopere eius adumbrata opinione laetentur? Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Est enim tanti philosophi tamque nobilis audacter sua decreta defendere. Sed si duo honesta proposita sint, alterum cum valitudine, alterum cum morbo, non esse dubium, ad utrum eorum natura nos ipsa deductura sit. </p>
+
+
     <footer>
       <p>
         Copyright Just Another Company 2017. All right reserved. Adapted from
