@@ -1,16 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 body {
-  background: linear-gradient(
+  font-family: "Open Sans";
+  background-image: /* url("https://i.pinimg.com/originals/1e/77/f3/1e77f33d7059d0ca06e51c8c0243ade8.png"),
+  */ linear-gradient(
     90deg,
     hsla(205, 34%, 40%, 1) 0%,
     hsla(347, 52%, 36%, 1) 100%
   );
+  /*background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;*/
   max-width: 90%;
   margin: 190px;
 }
 
+#imgfloat {
+  width: 200px;
+  float: left;
+  display: inline;
+  margin-right: 50px;
+}
+
+h1 {
+  background-color: yellow;
+}
+
+#firstp {
+  font-weight: 900;
+}
+
 p {
-  font-family: serif;
+  font-family: "Open Sans";
   font-size: 16px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   letter-spacing: 5px;
   color: #13211f;
 }
@@ -18,14 +42,78 @@ blockquote {
   margin-left: 190px;
   margin-right: 190px;
 }
-q {
+/*q {
+  font-style: italic;
+  border-left: 3px;
+  border-left-style: solid;
+  padding-left: 30px;
+  background-color: lightgray;
+  font-size: 160%;
+}*/
+.villagers {
+  font-style: italic;
   border-left: 3px;
   border-left-style: solid;
   border-left-color: orange;
   padding-left: 30px;
-  margin-top: 80px;
   background-color: lightgray;
   font-size: 160%;
+}
+
+.farmer {
+  font-style: italic;
+  border-left: 3px;
+  border-left-style: solid;
+  border-left-color: purple;
+  padding-left: 30px;
+  background-color: lightgray;
+  font-size: 160%;
+}
+.bad {
+  padding: auto;
+  margin: auto;
+  color: red;
+}
+
+.good {
+  padding: auto;
+  margin: auto;
+  color: green;
+}
+
+.white {
+  background-color: white;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.img-wrapper {
+  /* valeurs possibles: static,relative, absolute, fixed */
+  position: static;
+}
+#imgwrapper {
+  width: 200px;
+  border: 1px solid green;
+  padding: 5px;
+  /* valeurs possibles: static,relative, absolute, fixed */
+  position: relative;
+}
+
+.notification {
+  background: #ffffdd;
+  padding: 0.5rem 1rem;
+  border: 3px solid #ddddcc;
+  width: 250px;
+  font-weight: bold;
+  color: #333300;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  transition: 0.3s;
+
+  /* rajoute le code nécessaire ici*/
 }
 
 a {
