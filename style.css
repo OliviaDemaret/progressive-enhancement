@@ -29,8 +29,13 @@ h1 {
 #firstp {
   font-weight: 900;
 }
-
 p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 5px;
+  color: #13211f;
+}
+.pmarg {
   font-family: "Open Sans";
   font-size: 16px;
   margin-top: 80px;
