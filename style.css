@@ -1,4 +1,5 @@
 body {
+  background-color: background: hsla(205, 34%, 40%, 1);;
   max-width: 90%;
   margin: 190px;
 }
@@ -14,6 +15,12 @@ blockquote {
   margin-right: 190px;
 }
 q {
+  border-left: 3px;
+  border-left-style: solid;
+  border-left-color: orange;
+  padding-left: 30px;
+  margin-top: 80px;
+  background-color: lightgray;
   font-size: 160%;
 }
 
