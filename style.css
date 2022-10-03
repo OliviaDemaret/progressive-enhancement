@@ -1,5 +1,9 @@
 body {
-  background-color: background: hsla(205, 34%, 40%, 1);;
+  background: linear-gradient(
+    90deg,
+    hsla(205, 34%, 40%, 1) 0%,
+    hsla(347, 52%, 36%, 1) 100%
+  );
   max-width: 90%;
   margin: 190px;
 }
